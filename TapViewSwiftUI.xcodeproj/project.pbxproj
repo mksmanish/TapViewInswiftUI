@@ -11,6 +11,10 @@
 		130AA9232682175A003D92E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130AA9222682175A003D92E9 /* ContentView.swift */; };
 		130AA9252682175D003D92E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130AA9242682175D003D92E9 /* Assets.xcassets */; };
 		130AA9282682175D003D92E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130AA9272682175D003D92E9 /* Preview Assets.xcassets */; };
+		130AA931268217B4003D92E9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130AA930268217B4003D92E9 /* HomeController.swift */; };
+		130AA93526821A51003D92E9 /* SettingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130AA93426821A50003D92E9 /* SettingControl.swift */; };
+		130AA93826821A92003D92E9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130AA93726821A92003D92E9 /* Profile.swift */; };
+		130AA93B26821ACE003D92E9 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130AA93A26821ACE003D92E9 /* Accounts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		130AA9242682175D003D92E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		130AA9272682175D003D92E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		130AA9292682175D003D92E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130AA930268217B4003D92E9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		130AA93426821A50003D92E9 /* SettingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingControl.swift; sourceTree = "<group>"; };
+		130AA93726821A92003D92E9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		130AA93A26821ACE003D92E9 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				130AA9242682175D003D92E9 /* Assets.xcassets */,
 				130AA9292682175D003D92E9 /* Info.plist */,
 				130AA9262682175D003D92E9 /* Preview Content */,
+				130AA930268217B4003D92E9 /* HomeController.swift */,
+				130AA93426821A50003D92E9 /* SettingControl.swift */,
+				130AA93726821A92003D92E9 /* Profile.swift */,
+				130AA93A26821ACE003D92E9 /* Accounts.swift */,
 			);
 			path = TapViewSwiftUI;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				130AA9232682175A003D92E9 /* ContentView.swift in Sources */,
+				130AA93826821A92003D92E9 /* Profile.swift in Sources */,
 				130AA9212682175A003D92E9 /* TapViewSwiftUIApp.swift in Sources */,
+				130AA93526821A51003D92E9 /* SettingControl.swift in Sources */,
+				130AA931268217B4003D92E9 /* HomeController.swift in Sources */,
+				130AA93B26821ACE003D92E9 /* Accounts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
